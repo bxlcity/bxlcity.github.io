@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from laaris.com/coming-soon-12/smoky_countdown.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 May 2017 11:57:04 GMT -->
+<head>
+
+    <!-- Basic Page Info -->
+    <meta charset="utf-8">
+    <title>bxlcity - Coming Soon</title>
+    <meta name="description" content="bxlcity - Coming Soon">
+    <meta name="author" content="bxlcity.github.io">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.html" />
+
+    <!-- FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Poppins:200,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
+
+    <!-- ICON FONTS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-71483603-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+<div class="loader_bg"><div class="loader"></div></div>
+<div id="smoky">
+    <canvas>Your browser does not support HTML5 canvas.</canvas>
+</div>
+    <header>
+        <div class="brand">
+            <img src="img/logo.png" class="img-responsive" alt="Laaris.com">
+        </div>
+        <div class="menu">
+            <div class="menu-icon"><span></span></div>
+        </div>
+    </header>
+    <div class="wrapper text-center d_table">
+        <div class="d_table_v color_white one">
+            <h4 class="font_semibold">bxlcity.github.io website is</h4>
+            <h1 class="title"><span class="serif big_2">Under Construction</span></h1>
+            <h1 id='text' class="title"></h1>
+            <div class="space_5"></div>
+            <div class="countdown">
+                <ul class="color_white" id="countdown"></ul>
+            </div>
+            <div class="space_10"></div>
+            <div class="subscribe">
+                <form class="subscribe_form tr text-center" action="#" method="POST">
+                    <div class="form-group">
+                        <div class="controls">
+                            <label for="mail-subscribe" class="serif">Subscribe to be notified!</label>
+                            <br>
+                            <input type="text" id="mail-subscribe" name="email" placeholder="Enter your email"
+                                   onfocus="this.placeholder = 'Enter your email'"
+                                   onblur="this.placeholder = 'Enter your email'"
+                                   class="form-control color_white email"/>
+                            <button class="submit btn" type="submit" value="submit">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <ul class="social_list list-inline one">
+            <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        </ul>
+        <div class="info hide">
+            <div class="about">
+                <h2 class="title">About Us</h2>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut culpa dicta dignissimos dolor
+                    dolore dolores doloribus, eligendi est harum impedit ipsam numquam, rem sunt suscipit tenetur vel
+                    dolore dolores doloribus, eligendi est harum impedit ipsam numquam, rem sunt suscipit tenetur vel
+                    voluptas, voluptatem.
+                </p>
+            </div>
+            <div class="space_5"></div>
+            <ul class="social_list r list-inline">
+                <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            </ul>
+            <div class="space_10"></div>
+            <div class="contact">
+                <h2 class="title">Get in touch</h2>
+                <br>
+                <form id="contact-form" class="fadeInUpBig anim" method="post" action="#">
+                    <div class="messages"></div>
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input id="form_name" type="text" name="name" class="form-control color_white"
+                                           placeholder="Your name" required="required" data-error="Name is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input id="form_email" type="email" name="email" class="form-control color_white"
+                                           placeholder="Your email" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input id="form_subject" type="text" name="subject" class="form-control color_white"
+                                           placeholder="Write the subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                            <textarea id="form_message" name="message" class="form-control color_white"
+                                                      placeholder="Write message..." rows="4" required="required"
+                                                      data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <input type="submit" class="btn btn-send" value="Send message">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="one">
+            Copyright © 2017 bxlcity.github.io
+        </footer>
+    </div>
+
+<!-- JS -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/validator.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/waterpipe.js"></script>
+<script type="text/javascript" src="js/countdown.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    var smokyBG = $('#smoky').waterpipe({
+        gradientStart: '#ed11ff',
+        gradientEnd: '#2f52ff',
+        smokeOpacity: 0.04,
+        numCircles: 1,
+        maxMaxRad: 300,
+        minMaxRad: 500,
+        minRadFactor: 0,
+        iterations: 4,
+        drawsPerFrame: 2,
+        lineWidth: 1,
+        speed: 0.2,
+        bgColorInner: "#000000",
+        bgColorOuter: "#000000"
+    });
+</script>
+</body>
+
+<!-- Mirrored from laaris.com/coming-soon-12/smoky_countdown.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 May 2017 11:57:05 GMT -->
+</html>
